@@ -1,4 +1,4 @@
-﻿namespace KeyBoard
+﻿namespace KeyBoard.UI
 {
     partial class FloatingForm
     {

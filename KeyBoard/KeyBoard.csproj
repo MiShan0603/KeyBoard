@@ -60,25 +60,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="animation.cs" />
-    <Compile Include="FloatingForm.cs">
+    <Compile Include="UI\FloatingForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FloatingForm.Designer.cs">
+    <Compile Include="UI\FloatingForm.Designer.cs">
       <DependentUpon>FloatingForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="KeyBoardForm.cs">
+    <Compile Include="UI\KeyBoardForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="KeyBoardForm.Designer.cs">
+    <Compile Include="UI\KeyBoardForm.Designer.cs">
       <DependentUpon>KeyBoardForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Win32Wrapper.cs" />
-    <EmbeddedResource Include="FloatingForm.resx">
+    <EmbeddedResource Include="UI\FloatingForm.resx">
       <DependentUpon>FloatingForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="KeyBoardForm.resx">
+    <EmbeddedResource Include="UI\KeyBoardForm.resx">
       <DependentUpon>KeyBoardForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

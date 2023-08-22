@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace KeyBoard
+namespace KeyBoard.UI
 {
     public partial class FloatingForm : Form
     {
