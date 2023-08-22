@@ -977,7 +977,7 @@ namespace KeyBoard
             this.Name = "KeyBoardForm";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "魔笛虚拟键盘";
+            this.Text = "虚拟键盘";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.KeyBoardForm_FormClosing);
             this.Load += new System.EventHandler(this.KeyBoardForm_Load);
             this.ResumeLayout(false);
